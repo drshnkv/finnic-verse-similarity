@@ -1,0 +1,241 @@
+{
+  "baseline_clusters": 1553746,
+  "baseline_membership_entries": 8675145,
+  "configs": {
+    "loo_minus_jaccard": {
+      "loo_clusters": 1508715,
+      "delta_clusters": -45031,
+      "verses_clustered_baseline": 3861543,
+      "verses_clustered_loo": 3520398,
+      "verses_dropped": 342849,
+      "verses_gained": 1704,
+      "baseline_cluster_fate": {
+        "dissolved": 140406,
+        "scattered": 40322,
+        "preserved": 449028,
+        "fragmented": 923990
+      },
+      "fate_size_stats": {
+        "dissolved": {
+          "n": 140406,
+          "mean_size": 2.2,
+          "median_size": 2.0,
+          "share_size_2_4": 0.9954
+        },
+        "scattered": {
+          "n": 40322,
+          "mean_size": 3.37,
+          "median_size": 3.0,
+          "share_size_2_4": 0.8771
+        },
+        "preserved": {
+          "n": 449028,
+          "mean_size": 3.01,
+          "median_size": 3.0,
+          "share_size_2_4": 0.9016
+        },
+        "fragmented": {
+          "n": 923990,
+          "mean_size": 7.44,
+          "median_size": 6.0,
+          "share_size_2_4": 0.3154
+        }
+      },
+      "fragmentation_surplus_pieces": 5082723,
+      "groups_lost": 180728,
+      "loo_cluster_origin": {
+        "piece": 1500875,
+        "regrouped": 6102,
+        "with_new": 1738
+      }
+    },
+    "loo_minus_translation": {
+      "loo_clusters": 1603678,
+      "delta_clusters": 49932,
+      "verses_clustered_baseline": 3861543,
+      "verses_clustered_loo": 3528445,
+      "verses_dropped": 334951,
+      "verses_gained": 1853,
+      "baseline_cluster_fate": {
+        "dissolved": 128247,
+        "scattered": 44775,
+        "preserved": 468832,
+        "fragmented": 911892
+      },
+      "fate_size_stats": {
+        "dissolved": {
+          "n": 128247,
+          "mean_size": 2.2,
+          "median_size": 2.0,
+          "share_size_2_4": 0.9967
+        },
+        "scattered": {
+          "n": 44775,
+          "mean_size": 3.39,
+          "median_size": 3.0,
+          "share_size_2_4": 0.8777
+        },
+        "preserved": {
+          "n": 468832,
+          "mean_size": 2.97,
+          "median_size": 3.0,
+          "share_size_2_4": 0.9099
+        },
+        "fragmented": {
+          "n": 911892,
+          "mean_size": 7.51,
+          "median_size": 6.0,
+          "share_size_2_4": 0.3045
+        }
+      },
+      "fragmentation_surplus_pieces": 4592149,
+      "groups_lost": 173022,
+      "loo_cluster_origin": {
+        "piece": 1594002,
+        "regrouped": 7763,
+        "with_new": 1913
+      }
+    },
+    "loo_minus_tfidf": {
+      "loo_clusters": 1564356,
+      "delta_clusters": 10610,
+      "verses_clustered_baseline": 3861543,
+      "verses_clustered_loo": 3452131,
+      "verses_dropped": 410836,
+      "verses_gained": 1424,
+      "baseline_cluster_fate": {
+        "dissolved": 159683,
+        "scattered": 52305,
+        "preserved": 471343,
+        "fragmented": 870415
+      },
+      "fate_size_stats": {
+        "dissolved": {
+          "n": 159683,
+          "mean_size": 2.23,
+          "median_size": 2.0,
+          "share_size_2_4": 0.9952
+        },
+        "scattered": {
+          "n": 52305,
+          "mean_size": 3.42,
+          "median_size": 3.0,
+          "share_size_2_4": 0.8785
+        },
+        "preserved": {
+          "n": 471343,
+          "mean_size": 3.04,
+          "median_size": 3.0,
+          "share_size_2_4": 0.8971
+        },
+        "fragmented": {
+          "n": 870415,
+          "mean_size": 7.7,
+          "median_size": 6.0,
+          "share_size_2_4": 0.28
+        }
+      },
+      "fragmentation_surplus_pieces": 4347967,
+      "groups_lost": 211988,
+      "loo_cluster_origin": {
+        "piece": 1554935,
+        "regrouped": 7966,
+        "with_new": 1455
+      }
+    },
+    "loo_minus_charbigram": {
+      "loo_clusters": 1559638,
+      "delta_clusters": 5892,
+      "verses_clustered_baseline": 3861543,
+      "verses_clustered_loo": 3482783,
+      "verses_dropped": 380278,
+      "verses_gained": 1518,
+      "baseline_cluster_fate": {
+        "dissolved": 158339,
+        "scattered": 36927,
+        "preserved": 454215,
+        "fragmented": 904265
+      },
+      "fate_size_stats": {
+        "dissolved": {
+          "n": 158339,
+          "mean_size": 2.25,
+          "median_size": 2.0,
+          "share_size_2_4": 0.9912
+        },
+        "scattered": {
+          "n": 36927,
+          "mean_size": 3.19,
+          "median_size": 3.0,
+          "share_size_2_4": 0.9246
+        },
+        "preserved": {
+          "n": 454215,
+          "mean_size": 2.98,
+          "median_size": 3.0,
+          "share_size_2_4": 0.9106
+        },
+        "fragmented": {
+          "n": 904265,
+          "mean_size": 7.57,
+          "median_size": 6.0,
+          "share_size_2_4": 0.295
+        }
+      },
+      "fragmentation_surplus_pieces": 12263194,
+      "groups_lost": 195266,
+      "loo_cluster_origin": {
+        "piece": 1554292,
+        "regrouped": 3800,
+        "with_new": 1546
+      }
+    },
+    "loo_minus_sentence": {
+      "loo_clusters": 1579810,
+      "delta_clusters": 26064,
+      "verses_clustered_baseline": 3861543,
+      "verses_clustered_loo": 3772373,
+      "verses_dropped": 90735,
+      "verses_gained": 1565,
+      "baseline_cluster_fate": {
+        "dissolved": 42511,
+        "scattered": 11596,
+        "preserved": 458541,
+        "fragmented": 1041098
+      },
+      "fate_size_stats": {
+        "dissolved": {
+          "n": 42511,
+          "mean_size": 2.11,
+          "median_size": 2.0,
+          "share_size_2_4": 0.9964
+        },
+        "scattered": {
+          "n": 11596,
+          "mean_size": 2.77,
+          "median_size": 3.0,
+          "share_size_2_4": 0.9736
+        },
+        "preserved": {
+          "n": 458541,
+          "mean_size": 2.76,
+          "median_size": 2.0,
+          "share_size_2_4": 0.9354
+        },
+        "fragmented": {
+          "n": 1041098,
+          "mean_size": 7.0,
+          "median_size": 6.0,
+          "share_size_2_4": 0.3735
+        }
+      },
+      "fragmentation_surplus_pieces": 13461299,
+      "groups_lost": 54107,
+      "loo_cluster_origin": {
+        "piece": 1576510,
+        "regrouped": 1713,
+        "with_new": 1587
+      }
+    }
+  }
+}

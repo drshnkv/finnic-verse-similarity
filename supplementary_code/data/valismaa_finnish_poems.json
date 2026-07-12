@@ -1,0 +1,1013 @@
+{
+  "_metadata": {
+    "description": "välismaa-tagged poems in the ET/ERAB corpus whose text is actually Finnish (or Ingrian). Identified via char-trigram log-prob classifier (diff = fi_lp - et_lp >= 0.5). These are folklorist collections of Finnish-language material collected in or from Estonia.",
+    "classifier": "char_trigram_logprob_smoothed",
+    "threshold": "fi_lp - et_lp >= 0.5",
+    "total_valismaa_in_corpus": 1779,
+    "count_finnish": 68,
+    "count_estonian": 1711,
+    "build_date": "2026-04-11"
+  },
+  "finnish_pids": [
+    {
+      "pid": "E 53258/9",
+      "diff": 0.9921,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Ariste (Berg)",
+        "Paul"
+      ],
+      "text_len": 3239
+    },
+    {
+      "pid": "E 53259/61",
+      "diff": 0.9031,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Ariste (Berg)",
+        "Paul"
+      ],
+      "text_len": 2644
+    },
+    {
+      "pid": "E 53261/2 (3)",
+      "diff": 1.0982,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Ariste (Berg)",
+        "Paul"
+      ],
+      "text_len": 1801
+    },
+    {
+      "pid": "E 53262 (4)",
+      "diff": 0.8458,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Ariste (Berg)",
+        "Paul"
+      ],
+      "text_len": 652
+    },
+    {
+      "pid": "E 53262/3 (5)",
+      "diff": 0.9802,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Ariste (Berg)",
+        "Paul"
+      ],
+      "text_len": 955
+    },
+    {
+      "pid": "E 53263",
+      "diff": 1.0615,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Ariste (Berg)",
+        "Paul"
+      ],
+      "text_len": 1390
+    },
+    {
+      "pid": "E 53263/4",
+      "diff": 1.1386,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Ariste (Berg)",
+        "Paul"
+      ],
+      "text_len": 1450
+    },
+    {
+      "pid": "E 53264",
+      "diff": 0.9542,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Ariste (Berg)",
+        "Paul"
+      ],
+      "text_len": 311
+    },
+    {
+      "pid": "E, StK 20, 1/4 (1)",
+      "diff": 0.9095,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [
+        "Ema ei viind vesile",
+        "Hiljuke",
+        "Tütar vette!"
+      ],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 1813
+    },
+    {
+      "pid": "E, StK 20, 11/2 (5)",
+      "diff": 1.0627,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 467
+    },
+    {
+      "pid": "E, StK 20, 12/4 (6)",
+      "diff": 0.9065,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 676
+    },
+    {
+      "pid": "E, StK 20, 14/6 (7)",
+      "diff": 0.9427,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [
+        "Hobune varastatud",
+        "Hobune varastet"
+      ],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 1394
+    },
+    {
+      "pid": "E, StK 20, 17/8 (8)",
+      "diff": 0.9594,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [
+        "Loomine"
+      ],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 794
+    },
+    {
+      "pid": "E, StK 20, 18/9 (9)",
+      "diff": 1.0819,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [
+        "Poiste laitus"
+      ],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 150
+    },
+    {
+      "pid": "E, StK 20, 19 (10)",
+      "diff": 0.9819,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 409
+    },
+    {
+      "pid": "E, StK 20, 20 (11)",
+      "diff": 0.9958,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 416
+    },
+    {
+      "pid": "E, StK 20, 21/2 (12)",
+      "diff": 1.0269,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 542
+    },
+    {
+      "pid": "E, StK 20, 22/3 (13)",
+      "diff": 0.6551,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 720
+    },
+    {
+      "pid": "E, StK 20, 23/4 (14)",
+      "diff": 0.8305,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [
+        "Tütar ei saa palka",
+        "Tütar ei saa tööst palka"
+      ],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 196
+    },
+    {
+      "pid": "E, StK 20, 24/5 (15)",
+      "diff": 0.8588,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 676
+    },
+    {
+      "pid": "E, StK 20, 25 (16)",
+      "diff": 0.889,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [
+        "Helise mets",
+        "Helise",
+        "mets!"
+      ],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 90
+    },
+    {
+      "pid": "E, StK 20, 26/7 (17)",
+      "diff": 0.8482,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [
+        "Suu laulab-süda muretseb"
+      ],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 631
+    },
+    {
+      "pid": "E, StK 20, 27/8 (18)",
+      "diff": 1.1153,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 650
+    },
+    {
+      "pid": "E, StK 20, 28/9 (19)",
+      "diff": 0.8891,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [
+        "Neiu õpetus"
+      ],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 519
+    },
+    {
+      "pid": "E, StK 20, 29/30 (20)",
+      "diff": 0.965,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 221
+    },
+    {
+      "pid": "E, StK 20, 30/1 (21)",
+      "diff": 0.7997,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 451
+    },
+    {
+      "pid": "E, StK 20, 31/2 (22)",
+      "diff": 1.1329,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 323
+    },
+    {
+      "pid": "E, StK 20, 32/3 (23)",
+      "diff": 0.8206,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 582
+    },
+    {
+      "pid": "E, StK 20, 33 (24)",
+      "diff": 0.5121,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 178
+    },
+    {
+      "pid": "E, StK 20, 34/5 (26)",
+      "diff": 0.7202,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [
+        "Uss",
+        "Ussisõnad"
+      ],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 324
+    },
+    {
+      "pid": "E, StK 20, 35 (27)",
+      "diff": 0.6172,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [
+        "Nikastus"
+      ],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 207
+    },
+    {
+      "pid": "E, StK 20, 35/6 (28)",
+      "diff": 1.124,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 284
+    },
+    {
+      "pid": "E, StK 20, 36/41 (29)",
+      "diff": 0.7945,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 2269
+    },
+    {
+      "pid": "E, StK 20, 41/2 (30)",
+      "diff": 1.0132,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [
+        "Enne suur hulk"
+      ],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 525
+    },
+    {
+      "pid": "E, StK 20, 43/4 (31)",
+      "diff": 0.7811,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 773
+    },
+    {
+      "pid": "E, StK 20, 44/51 (32)",
+      "diff": 0.9228,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 2967
+    },
+    {
+      "pid": "E, StK 20, 5/7 (2)",
+      "diff": 0.7255,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [
+        "Ori taevas"
+      ],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 1336
+    },
+    {
+      "pid": "E, StK 20, 51/3 (33)",
+      "diff": 0.9047,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 742
+    },
+    {
+      "pid": "E, StK 20, 53/4 (34)",
+      "diff": 1.0499,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 442
+    },
+    {
+      "pid": "E, StK 20, 54/6 (35)",
+      "diff": 1.099,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 1059
+    },
+    {
+      "pid": "E, StK 20, 56/63 (36)",
+      "diff": 0.8716,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 3105
+    },
+    {
+      "pid": "E, StK 20, 63/4 (37)",
+      "diff": 0.8161,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 498
+    },
+    {
+      "pid": "E, StK 20, 65/9 (38)",
+      "diff": 1.0117,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 1958
+    },
+    {
+      "pid": "E, StK 20, 69/70 (39)",
+      "diff": 0.9755,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 461
+    },
+    {
+      "pid": "E, StK 20, 70/1 (40)",
+      "diff": 0.651,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 732
+    },
+    {
+      "pid": "E, StK 20, 71/2 (41)",
+      "diff": 0.6855,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 326
+    },
+    {
+      "pid": "E, StK 20, 72/3 (42)",
+      "diff": 1.0689,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 357
+    },
+    {
+      "pid": "E, StK 20, 73/4 (43)",
+      "diff": 0.9303,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 696
+    },
+    {
+      "pid": "E, StK 20, 74/7 (44)",
+      "diff": 0.8232,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 1163
+    },
+    {
+      "pid": "E, StK 20, 77/8 (45)",
+      "diff": 1.2835,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 314
+    },
+    {
+      "pid": "E, StK 20, 78 (46)",
+      "diff": 0.5146,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 157
+    },
+    {
+      "pid": "E, StK 20, 78/9 (47)",
+      "diff": 0.6721,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 561
+    },
+    {
+      "pid": "E, StK 20, 8/9 (3)",
+      "diff": 0.7178,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 740
+    },
+    {
+      "pid": "E, StK 20, 80/1 (48)",
+      "diff": 0.7571,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 759
+    },
+    {
+      "pid": "E, StK 20, 81/3 (49)",
+      "diff": 0.9447,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 739
+    },
+    {
+      "pid": "E, StK 20, 83/4 (50)",
+      "diff": 0.8787,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 699
+    },
+    {
+      "pid": "E, StK 20, 84/6 (51)",
+      "diff": 0.8839,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 858
+    },
+    {
+      "pid": "E, StK 20, 86/9 (52)",
+      "diff": 0.9176,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 1653
+    },
+    {
+      "pid": "E, StK 20, 9/11 (4)",
+      "diff": 0.9176,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [
+        "Harja otsimine"
+      ],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 904
+    },
+    {
+      "pid": "E, StK 20, 90 (53)",
+      "diff": 0.76,
+      "year": "1923",
+      "places": [
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Angeria",
+        "Aleksander"
+      ],
+      "text_len": 297
+    },
+    {
+      "pid": "ERA II 23, 483 (1)",
+      "diff": 0.9049,
+      "year": "1930",
+      "places": [
+        "välismaa"
+      ],
+      "types": [
+        "Nädalapäevad"
+      ],
+      "collectors": [
+        "Ariste (Berg)",
+        "Paul"
+      ],
+      "text_len": 191
+    },
+    {
+      "pid": "TEM 3, 1/5",
+      "diff": 1.0147,
+      "year": "1922",
+      "places": [
+        "Tallinn",
+        "välismaa"
+      ],
+      "types": [
+        "Kullervon jaksoa"
+      ],
+      "collectors": [
+        "Ariste (Berg)",
+        "Paul"
+      ],
+      "text_len": 3262
+    },
+    {
+      "pid": "TEM 3, 11",
+      "diff": 1.1062,
+      "year": "1922",
+      "places": [
+        "Tallinn",
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Ariste (Berg)",
+        "Paul"
+      ],
+      "text_len": 1549
+    },
+    {
+      "pid": "TEM 3, 11/3",
+      "diff": 1.0747,
+      "year": "1922",
+      "places": [
+        "Tallinn",
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Ariste (Berg)",
+        "Paul"
+      ],
+      "text_len": 1358
+    },
+    {
+      "pid": "TEM 3, 13/5",
+      "diff": 0.9443,
+      "year": "1922",
+      "places": [
+        "Tallinn",
+        "välismaa"
+      ],
+      "types": [
+        "Kanteleen synty"
+      ],
+      "collectors": [
+        "Ariste (Berg)",
+        "Paul"
+      ],
+      "text_len": 1162
+    },
+    {
+      "pid": "TEM 3, 15",
+      "diff": 0.755,
+      "year": "1922",
+      "places": [
+        "Tallinn",
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Ariste (Berg)",
+        "Paul"
+      ],
+      "text_len": 651
+    },
+    {
+      "pid": "TEM 3, 5/7",
+      "diff": 0.9367,
+      "year": "1922",
+      "places": [
+        "Tallinn",
+        "välismaa"
+      ],
+      "types": [
+        "Laurinpoika lappalainen"
+      ],
+      "collectors": [
+        "Ariste (Berg)",
+        "Paul"
+      ],
+      "text_len": 2593
+    },
+    {
+      "pid": "TEM 3, 7/9",
+      "diff": 1.1083,
+      "year": "1922",
+      "places": [
+        "Tallinn",
+        "välismaa"
+      ],
+      "types": [],
+      "collectors": [
+        "Ariste (Berg)",
+        "Paul"
+      ],
+      "text_len": 1858
+    }
+  ]
+}

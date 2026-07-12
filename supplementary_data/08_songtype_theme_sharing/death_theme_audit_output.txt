@@ -1,0 +1,98 @@
+Loading song type cache...
+  158867 poems with song types
+Loading CL cluster IDs...
+  19423 CL clusters loaded
+Loading cluster membership...
+  Scanned 100000 clusters, found 1094 CL clusters
+  Scanned 200000 clusters, found 2440 CL clusters
+  Scanned 300000 clusters, found 3854 CL clusters
+  Scanned 400000 clusters, found 5137 CL clusters
+  Scanned 500000 clusters, found 6589 CL clusters
+  Scanned 600000 clusters, found 8283 CL clusters
+  Scanned 700000 clusters, found 9366 CL clusters
+  Scanned 800000 clusters, found 11018 CL clusters
+  Scanned 900000 clusters, found 12421 CL clusters
+  Scanned 1000000 clusters, found 14227 CL clusters
+  Scanned 1100000 clusters, found 15307 CL clusters
+  Scanned 1200000 clusters, found 16364 CL clusters
+  Scanned 1300000 clusters, found 17533 CL clusters
+  Scanned 1400000 clusters, found 18525 CL clusters
+  Scanned 1500000 clusters, found 18901 CL clusters
+  Loaded 19423 CL cluster memberships from 1553746 total
+
+=== DEATH types, ET side: 79 types, 724 corpus poems, 681 CL incidences ===
+    CL  corpus  type name
+   257     222  Tütarde tapja
+    60      39  Naisetapja
+    57      77  Põdratapja
+    46      41  Mehetapja
+    34      22  Maie laul
+    34       9  Ilma parandamine
+    26      42  Surma sajatus
+    25      50  Ema õpetus
+    17       7  Jeesuse kannatamine ja surm
+    13      18  Avanenud hauad
+     9      29  Vares ootab hobuse surma
+     9      16  Kupja surm
+     9       6  Vale surmasõnum
+     9       3  Jeesuse näljasurm
+     7       5  Surma ootamine
+     7       3  Rikas kardab surma
+     6       4  Ära mine mustalt muude sekka
+     5       1  Vares ootab hobu surma
+     4       9  Sugu surnud
+     4       7  Tütrete tapja
+     4       7  Surma noomimine
+     4       4  Vanemate surm
+     4       1  Hobuse surm
+     3       3  Tütre tapja
+     3       1  Surma sajatamine
+--> killing ballads ['Tütarde tapja', 'Tütrete tapja', 'Tütre tapja', 'Tütarde tapmine', 'Tütred vette', 'Naisetapja', 'Mehetapja', 'Maie laul', 'Maielaul']: 404 of 681 CL incidences = 59.3%
+
+=== DEATH types, FI side: 40 types, 1,001 corpus poems, 408 CL incidences ===
+    CL  corpus  type name
+   150     114  Laivassa surmattu veli
+    47      82  Äidin kuolo
+    43      37  Elinan surma
+    35     139  Kuolon sanomat
+    20      22  Haudan kuvaus
+    19      63  Ei se surma suorin tehnyt
+    15     105  Tule surma suota myöten
+    14      36  Piispa Henrikin surmavirsi
+    12     136  Tule surma vastaan
+    10      98  Eläimet hautaajina
+     9      32  Hiihtävä surma
+     9      15  Velisurmaaja
+     5      45  Tuonelassa käynti
+     5       3  Kivikelloa lyötiin - hautajaiset
+     4      33  Tule surma sukkinesi
+     4       2  Vuohen surma
+     3       2  Orvon Tuonelanmatka
+     1       3  Kaikki sukuni kuoli kunnialla - minä ouoin surmin
+     1       2  Tervahaudan väki
+     1       2  Hautajaistalossa
+     1       1  Hautausmaalta palatessa
+     0       5  Suku surmaksi rupesi
+     0       3  Mitä kävelet surma
+     0       3  Kuoleman sairaus
+     0       2  Vainajan lepytteleminen hautausmaalla
+--> killing ballads ['Laivassa surmattu veli', 'Elinan surma', 'Piispa Henrikin surmavirsi', 'Velisurmaaja']: 216 of 408 CL incidences = 52.9%
+
+=== Types CONTAINING a death keyword but themed elsewhere (top by CL) ===
+    CL  corpus theme         type name
+    71     833 lullabies     Tuuti lasta Tuonelaan
+    36     125 incantations  Kalmasta tarttuu
+    15      31 epic          Lemminkäisen surma
+    11      16 lyric         Neiu surm
+     2       5 animal        Kissa huusi kiukaalta - kohta kuolema tulee
+     1      16 wedding       Sulhasen kuolema
+     1      11 lyric         Neiud ootavad naiste surma
+     1       7 incantations  Kalman nostatus
+     1       5 lullabies     Nuku ettei surma löydä
+     1       4 animal        Hauki kyselee kalastajan kuolemaa
+     1       1 lyric         Laisa naine tapja
+     1       1 animal        Karutapjad
+     0       7 incantations  Kalman synty
+     0       6 animal        Kissan surma
+     0       2 animal        Koertetapja
+... 26 such types total; 1,082 corpus poems, 142 CL incidences

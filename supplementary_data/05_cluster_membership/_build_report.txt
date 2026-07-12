@@ -1,0 +1,64 @@
+Cross-corpus cluster-membership export -- build report
+================================================================
+generated_utc : 2026-06-30 14:44:12Z
+builder       : similarity/build_cl_cluster_membership_export.py
+
+INPUTS (sha256 / size / mtime)
+----------------------------------------------------------------
+summary (floor2 CL)
+  similarity/output/floor2_rederive/rrf_ws4_cross_lingual_5algo.json
+  sha256 4b1174febbf941583dd7b89a1aae570b84c8c73b128f75b5b5d41fae7d772252
+  6,423,976 bytes  mtime 2026-06-07 09:22:15Z
+membership
+  similarity/output/rrf_cluster_membership_floor2_experimental.jsonl.gz
+  sha256 20b96ae40902dace90eb7caf0d73a25d8e86d89de8b8dd164cbcf0d74cc2dd19
+  56,092,279 bytes  mtime 2026-06-06 19:34:33Z  [NB: *_experimental.jsonl.gz is the floor2 membership source]
+verse metadata
+  similarity/output/verse_metadata.jsonl.gz
+  sha256 175fc47fd9ddce2870ab1725d17641f9101805c00e830c8fcf16bc88e5ad81d7
+  73,298,125 bytes  mtime 2026-06-05 14:55:01Z
+KR suspects TSV
+  similarity/output/floor2_rederive/kr_estonian_misfiled_suspects.tsv
+  sha256 8f2aba295846d33d12cfaa2ae2f7330270d2e26520c1acea7491768e5bcd43b9
+  4,892 bytes  mtime 2026-06-26 11:03:40Z
+membership lines scanned : 1,553,746
+metadata lines scanned   : 4,291,553
+
+CLUSTERS
+----------------------------------------------------------------
+cross-lingual clusters   : 19,423
+  form_based             : 18,376 (94.6%)
+  meaning_based          : 1,047 (5.4%)
+member-slots (sum size)  : 110,458
+unique member verses     : 84,265
+  in >=2 clusters        : overlapping membership -- sum(size) over-counts
+member-language tally     : et=60,647  fi=49,811  unknown=0
+KR-Estonian-suspect clusters : 269  (from 8 curated runo-50/53 poems)
+
+UNRESOLVABLE VERSE IDS (poem also absent from metadata)
+----------------------------------------------------------------
+  none -- every member resolved; the single-distinct-word verses
+  dropped by the wordform metadata leg are resolved at poem level
+
+CORRECTED AGGREGATES vs PUBLISHED (entity-decode + poem-level fallback)
+----------------------------------------------------------------
+  Estonian verses : 46,423 -> 47,065  (delta +642)
+  Finnish verses  : 37,199 -> 37,200  (delta +1)
+  unknown verses  : 0
+  total unique    : 84,265  (et+fi+unknown)
+  unique poems    : 57,038 -> 57,521  (delta +483)   [et 30,807 / fi 26,714 / mixed 0]
+    (every member resolved, so this equals the 57,521 distinct poems total)
+  cross-corpus pairs : 119,388 -> 120,590  (delta +1,202)   [= sum(et_count*fi_count); undirected co-membership]
+
+OUTPUTS
+----------------------------------------------------------------
+  article_jeful/supplementary_data/05_cluster_membership/cl_cluster_membership.jsonl
+     sha256 191dc24a0a6d9e7595277fd0ef3054f27ad38ffde01282d7802105e36bae3b03  15,701,335 bytes
+  article_jeful/supplementary_data/05_cluster_membership/cl_cluster_members.csv
+     sha256 92da009f2ae8d2355e5b13198bf1f42a6e5ced31c32b533f6b194ea4078547b8  7,420,171 bytes
+  article_jeful/supplementary_data/05_cluster_membership/cl_clusters_index.csv
+     sha256 e8c0e92ae96c382f74bc963b4beb8cc0a4ffb5a64ceaacc7b48042ad5b63c8d4  1,513,117 bytes
+  deployment/cl_clusters_summary.json.gz
+     sha256 3f8550c576d75bab7449fc24574c488e47db2e7310fdcc30335b3d0398fae827  850,304 bytes
+  deployment/cl_cluster_members.json.gz
+     sha256 9ac68a47766aed2c709f1960b15cf25d5dc7181b7b007393dd78bc36bbaea405  2,408,762 bytes

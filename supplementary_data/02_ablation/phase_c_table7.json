@@ -1,0 +1,65 @@
+{
+  "full_5algo": {
+    "tag": "full_5algo",
+    "cl_clusters": 19423,
+    "coverage_pct": 89.45,
+    "covered_verses": 3861543,
+    "n_clusters_total": 1553746
+  },
+  "leave_one_out": {
+    "minus_sentence": {
+      "tag": "minus_sentence",
+      "cl_clusters": 11211,
+      "coverage_pct": 87.39,
+      "covered_verses": 3772373,
+      "n_clusters_total": 1579810,
+      "clusters_lost": 8212,
+      "coverage_lost_pct": 2.06
+    },
+    "minus_jaccard": {
+      "tag": "minus_jaccard",
+      "cl_clusters": 14163,
+      "coverage_pct": 81.55,
+      "covered_verses": 3520398,
+      "n_clusters_total": 1508715,
+      "clusters_lost": 5260,
+      "coverage_lost_pct": 7.9
+    },
+    "minus_tfidf": {
+      "tag": "minus_tfidf",
+      "cl_clusters": 10878,
+      "coverage_pct": 79.97,
+      "covered_verses": 3452131,
+      "n_clusters_total": 1564356,
+      "clusters_lost": 8545,
+      "coverage_lost_pct": 9.48
+    },
+    "minus_charbigram": {
+      "tag": "minus_charbigram",
+      "cl_clusters": 14196,
+      "coverage_pct": 80.68,
+      "covered_verses": 3482783,
+      "n_clusters_total": 1559638,
+      "clusters_lost": 5227,
+      "coverage_lost_pct": 8.77
+    },
+    "minus_translation": {
+      "tag": "minus_translation",
+      "cl_clusters": 5805,
+      "coverage_pct": 81.74,
+      "covered_verses": 3528445,
+      "n_clusters_total": 1603678,
+      "clusters_lost": 13618,
+      "coverage_lost_pct": 7.71
+    }
+  },
+  "minalgos3": {
+    "tag": "minalgos3",
+    "cl_clusters": 14134,
+    "coverage_pct": 86.34,
+    "covered_verses": 3727287,
+    "n_clusters_total": 1496543,
+    "clusters_lost_vs_full": 5289,
+    "coverage_lost_pct_vs_full": 3.11
+  }
+}

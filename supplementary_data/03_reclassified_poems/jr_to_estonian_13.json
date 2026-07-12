@@ -1,0 +1,88 @@
+{
+  "_metadata": {
+    "description": "13 JR (Finnish archive, Kalevala-metre) poems whose text is Estonian; language reclassified JR -> ET while the archive corpus stays JR.",
+    "source": "valismaa_override.py :: _JR_ET_PIDS (canonical override)",
+    "split": "12 collected in Setumaa (Setu dialect) + 1 in Tori (JR 79015), per valismaa_override.py docstring",
+    "total": 13
+  },
+  "estonian_pids": [
+    {
+      "pid": "JR 03705",
+      "reclassified_language": "et",
+      "archive_corpus": "JR",
+      "dialect_region": "Setu (Setumaa)"
+    },
+    {
+      "pid": "JR 03706",
+      "reclassified_language": "et",
+      "archive_corpus": "JR",
+      "dialect_region": "Setu (Setumaa)"
+    },
+    {
+      "pid": "JR 03707",
+      "reclassified_language": "et",
+      "archive_corpus": "JR",
+      "dialect_region": "Setu (Setumaa)"
+    },
+    {
+      "pid": "JR 03708",
+      "reclassified_language": "et",
+      "archive_corpus": "JR",
+      "dialect_region": "Setu (Setumaa)"
+    },
+    {
+      "pid": "JR 72642",
+      "reclassified_language": "et",
+      "archive_corpus": "JR",
+      "dialect_region": "Setu (Setumaa)"
+    },
+    {
+      "pid": "JR 72643",
+      "reclassified_language": "et",
+      "archive_corpus": "JR",
+      "dialect_region": "Setu (Setumaa)"
+    },
+    {
+      "pid": "JR 72644",
+      "reclassified_language": "et",
+      "archive_corpus": "JR",
+      "dialect_region": "Setu (Setumaa)"
+    },
+    {
+      "pid": "JR 72645",
+      "reclassified_language": "et",
+      "archive_corpus": "JR",
+      "dialect_region": "Setu (Setumaa)"
+    },
+    {
+      "pid": "JR 72646",
+      "reclassified_language": "et",
+      "archive_corpus": "JR",
+      "dialect_region": "Setu (Setumaa)"
+    },
+    {
+      "pid": "JR 72647",
+      "reclassified_language": "et",
+      "archive_corpus": "JR",
+      "dialect_region": "Setu (Setumaa)"
+    },
+    {
+      "pid": "JR 72648",
+      "reclassified_language": "et",
+      "archive_corpus": "JR",
+      "dialect_region": "Setu (Setumaa)"
+    },
+    {
+      "pid": "JR 72649",
+      "reclassified_language": "et",
+      "archive_corpus": "JR",
+      "dialect_region": "Setu (Setumaa)"
+    },
+    {
+      "pid": "JR 79015",
+      "reclassified_language": "et",
+      "archive_corpus": "JR",
+      "dialect_region": "Tori"
+    }
+  ]
+}

@@ -1,0 +1,730 @@
+{
+  "generated": "2026-07-03",
+  "inputs": {
+    "cl_clusters": 19423,
+    "typed_poems_corpus": {
+      "ET": 70869,
+      "FI": 87998,
+      "pooled": 158867
+    },
+    "typed_incidences_in_cl": {
+      "ET": 37429,
+      "FI": 26655,
+      "pooled": 64084
+    },
+    "distinct_typed_poems_in_cl": {
+      "ET": 20321,
+      "FI": 15094,
+      "pooled": 35415
+    },
+    "kanteletar_pids_sided_ET": 549
+  },
+  "corpus_theme_share_by_side": {
+    "ET": {
+      "animal": 0.0572,
+      "calendar": 0.0224,
+      "children": 0.0547,
+      "death": 0.0102,
+      "epic": 0.0048,
+      "incantations": 0.0177,
+      "lullabies": 0.0061,
+      "lyric": 0.2629,
+      "other": 0.4765,
+      "wedding": 0.0601,
+      "work": 0.0272
+    },
+    "FI": {
+      "animal": 0.0872,
+      "calendar": 0.021,
+      "children": 0.052,
+      "death": 0.0114,
+      "epic": 0.0559,
+      "incantations": 0.2263,
+      "lullabies": 0.0531,
+      "lyric": 0.0459,
+      "other": 0.4134,
+      "wedding": 0.0207,
+      "work": 0.0133
+    }
+  },
+  "phase_e_pooled_reproduced": {
+    "chi2": 4135.2,
+    "df": 10
+  },
+  "sidemix_corrected_pooled": {
+    "chi2": 2678.3,
+    "df": 10,
+    "rows": [
+      {
+        "theme": "epic",
+        "obs": 2953,
+        "expected": 1670.9,
+        "obs_rate": 0.0461,
+        "baseline_rate": 0.0261,
+        "enrichment": 1.767
+      },
+      {
+        "theme": "death",
+        "obs": 1089,
+        "expected": 685.6,
+        "obs_rate": 0.017,
+        "baseline_rate": 0.0107,
+        "enrichment": 1.588
+      },
+      {
+        "theme": "animal",
+        "obs": 4977,
+        "expected": 4465.4,
+        "obs_rate": 0.0777,
+        "baseline_rate": 0.0697,
+        "enrichment": 1.115
+      },
+      {
+        "theme": "wedding",
+        "obs": 3025,
+        "expected": 2802.0,
+        "obs_rate": 0.0472,
+        "baseline_rate": 0.0437,
+        "enrichment": 1.08
+      },
+      {
+        "theme": "lyric",
+        "obs": 11892,
+        "expected": 11063.4,
+        "obs_rate": 0.1856,
+        "baseline_rate": 0.1726,
+        "enrichment": 1.075
+      },
+      {
+        "theme": "other",
+        "obs": 29603,
+        "expected": 28853.8,
+        "obs_rate": 0.4619,
+        "baseline_rate": 0.4502,
+        "enrichment": 1.026
+      },
+      {
+        "theme": "calendar",
+        "obs": 1226,
+        "expected": 1396.8,
+        "obs_rate": 0.0191,
+        "baseline_rate": 0.0218,
+        "enrichment": 0.878
+      },
+      {
+        "theme": "incantations",
+        "obs": 5213,
+        "expected": 6692.1,
+        "obs_rate": 0.0813,
+        "baseline_rate": 0.1044,
+        "enrichment": 0.779
+      },
+      {
+        "theme": "work",
+        "obs": 1012,
+        "expected": 1374.0,
+        "obs_rate": 0.0158,
+        "baseline_rate": 0.0214,
+        "enrichment": 0.737
+      },
+      {
+        "theme": "children",
+        "obs": 2390,
+        "expected": 3435.0,
+        "obs_rate": 0.0373,
+        "baseline_rate": 0.0536,
+        "enrichment": 0.696
+      },
+      {
+        "theme": "lullabies",
+        "obs": 704,
+        "expected": 1645.0,
+        "obs_rate": 0.011,
+        "baseline_rate": 0.0257,
+        "enrichment": 0.428
+      }
+    ]
+  },
+  "verse_weighted_baseline_pooled": {
+    "note": "baseline weights each corpus poem by its verse count (opportunity to enter a verse-built cluster); observed unchanged. P-13.",
+    "typed_verses_corpus": {
+      "ET": 1407788,
+      "FI": 1311606,
+      "pooled": 2719394
+    },
+    "typed_poems_missing_from_verse_index": {
+      "ET": 45,
+      "FI": 883
+    },
+    "chi2": 1267.0,
+    "df": 10,
+    "rows": [
+      {
+        "theme": "animal",
+        "obs": 4977,
+        "expected": 4241.1,
+        "obs_rate": 0.0777,
+        "baseline_rate": 0.0662,
+        "enrichment": 1.174
+      },
+      {
+        "theme": "other",
+        "obs": 29603,
+        "expected": 26767.1,
+        "obs_rate": 0.4619,
+        "baseline_rate": 0.4177,
+        "enrichment": 1.106
+      },
+      {
+        "theme": "lullabies",
+        "obs": 704,
+        "expected": 669.1,
+        "obs_rate": 0.011,
+        "baseline_rate": 0.0104,
+        "enrichment": 1.052
+      },
+      {
+        "theme": "work",
+        "obs": 1012,
+        "expected": 1001.5,
+        "obs_rate": 0.0158,
+        "baseline_rate": 0.0156,
+        "enrichment": 1.011
+      },
+      {
+        "theme": "children",
+        "obs": 2390,
+        "expected": 2400.0,
+        "obs_rate": 0.0373,
+        "baseline_rate": 0.0375,
+        "enrichment": 0.996
+      },
+      {
+        "theme": "lyric",
+        "obs": 11892,
+        "expected": 12431.3,
+        "obs_rate": 0.1856,
+        "baseline_rate": 0.194,
+        "enrichment": 0.957
+      },
+      {
+        "theme": "incantations",
+        "obs": 5213,
+        "expected": 5563.3,
+        "obs_rate": 0.0813,
+        "baseline_rate": 0.0868,
+        "enrichment": 0.937
+      },
+      {
+        "theme": "calendar",
+        "obs": 1226,
+        "expected": 1375.6,
+        "obs_rate": 0.0191,
+        "baseline_rate": 0.0215,
+        "enrichment": 0.891
+      },
+      {
+        "theme": "death",
+        "obs": 1089,
+        "expected": 1231.5,
+        "obs_rate": 0.017,
+        "baseline_rate": 0.0192,
+        "enrichment": 0.884
+      },
+      {
+        "theme": "wedding",
+        "obs": 3025,
+        "expected": 3761.3,
+        "obs_rate": 0.0472,
+        "baseline_rate": 0.0587,
+        "enrichment": 0.804
+      },
+      {
+        "theme": "epic",
+        "obs": 2953,
+        "expected": 4642.0,
+        "obs_rate": 0.0461,
+        "baseline_rate": 0.0724,
+        "enrichment": 0.636
+      }
+    ]
+  },
+  "verse_weighted_baseline_per_side": {
+    "ET": {
+      "n_incidences": 37429,
+      "chi2": 2358.5,
+      "df": 10,
+      "rows": [
+        {
+          "theme": "incantations",
+          "obs": 1106,
+          "expected": 354.3,
+          "obs_rate": 0.0295,
+          "baseline_rate": 0.0095,
+          "enrichment": 3.122
+        },
+        {
+          "theme": "lullabies",
+          "obs": 203,
+          "expected": 118.9,
+          "obs_rate": 0.0054,
+          "baseline_rate": 0.0032,
+          "enrichment": 1.707
+        },
+        {
+          "theme": "epic",
+          "obs": 312,
+          "expected": 213.0,
+          "obs_rate": 0.0083,
+          "baseline_rate": 0.0057,
+          "enrichment": 1.465
+        },
+        {
+          "theme": "animal",
+          "obs": 2514,
+          "expected": 1758.8,
+          "obs_rate": 0.0672,
+          "baseline_rate": 0.047,
+          "enrichment": 1.429
+        },
+        {
+          "theme": "other",
+          "obs": 17769,
+          "expected": 17427.0,
+          "obs_rate": 0.4747,
+          "baseline_rate": 0.4656,
+          "enrichment": 1.02
+        },
+        {
+          "theme": "children",
+          "obs": 1852,
+          "expected": 1839.8,
+          "obs_rate": 0.0495,
+          "baseline_rate": 0.0492,
+          "enrichment": 1.007
+        },
+        {
+          "theme": "lyric",
+          "obs": 9377,
+          "expected": 10372.4,
+          "obs_rate": 0.2505,
+          "baseline_rate": 0.2771,
+          "enrichment": 0.904
+        },
+        {
+          "theme": "death",
+          "obs": 681,
+          "expected": 753.8,
+          "obs_rate": 0.0182,
+          "baseline_rate": 0.0201,
+          "enrichment": 0.903
+        },
+        {
+          "theme": "work",
+          "obs": 630,
+          "expected": 720.6,
+          "obs_rate": 0.0168,
+          "baseline_rate": 0.0193,
+          "enrichment": 0.874
+        },
+        {
+          "theme": "calendar",
+          "obs": 847,
+          "expected": 983.7,
+          "obs_rate": 0.0226,
+          "baseline_rate": 0.0263,
+          "enrichment": 0.861
+        },
+        {
+          "theme": "wedding",
+          "obs": 2138,
+          "expected": 2886.7,
+          "obs_rate": 0.0571,
+          "baseline_rate": 0.0771,
+          "enrichment": 0.741
+        }
+      ]
+    },
+    "FI": {
+      "n_incidences": 26655,
+      "chi2": 1774.5,
+      "df": 10,
+      "rows": [
+        {
+          "theme": "work",
+          "obs": 382,
+          "expected": 280.9,
+          "obs_rate": 0.0143,
+          "baseline_rate": 0.0105,
+          "enrichment": 1.36
+        },
+        {
+          "theme": "other",
+          "obs": 11834,
+          "expected": 9340.1,
+          "obs_rate": 0.444,
+          "baseline_rate": 0.3504,
+          "enrichment": 1.267
+        },
+        {
+          "theme": "lyric",
+          "obs": 2515,
+          "expected": 2058.9,
+          "obs_rate": 0.0944,
+          "baseline_rate": 0.0772,
+          "enrichment": 1.221
+        },
+        {
+          "theme": "wedding",
+          "obs": 887,
+          "expected": 874.6,
+          "obs_rate": 0.0333,
+          "baseline_rate": 0.0328,
+          "enrichment": 1.014
+        },
+        {
+          "theme": "animal",
+          "obs": 2463,
+          "expected": 2482.3,
+          "obs_rate": 0.0924,
+          "baseline_rate": 0.0931,
+          "enrichment": 0.992
+        },
+        {
+          "theme": "calendar",
+          "obs": 379,
+          "expected": 391.9,
+          "obs_rate": 0.0142,
+          "baseline_rate": 0.0147,
+          "enrichment": 0.967
+        },
+        {
+          "theme": "children",
+          "obs": 538,
+          "expected": 560.2,
+          "obs_rate": 0.0202,
+          "baseline_rate": 0.021,
+          "enrichment": 0.96
+        },
+        {
+          "theme": "lullabies",
+          "obs": 501,
+          "expected": 550.2,
+          "obs_rate": 0.0188,
+          "baseline_rate": 0.0206,
+          "enrichment": 0.91
+        },
+        {
+          "theme": "death",
+          "obs": 408,
+          "expected": 477.7,
+          "obs_rate": 0.0153,
+          "baseline_rate": 0.0179,
+          "enrichment": 0.854
+        },
+        {
+          "theme": "incantations",
+          "obs": 4107,
+          "expected": 5209.0,
+          "obs_rate": 0.1541,
+          "baseline_rate": 0.1954,
+          "enrichment": 0.788
+        },
+        {
+          "theme": "epic",
+          "obs": 2641,
+          "expected": 4429.0,
+          "obs_rate": 0.0991,
+          "baseline_rate": 0.1662,
+          "enrichment": 0.596
+        }
+      ]
+    }
+  },
+  "per_side": {
+    "ET": {
+      "n_incidences": 37429,
+      "chi2": 891.0,
+      "df": 10,
+      "rows": [
+        {
+          "theme": "death",
+          "obs": 681,
+          "expected": 382.4,
+          "obs_rate": 0.0182,
+          "baseline_rate": 0.0102,
+          "enrichment": 1.781
+        },
+        {
+          "theme": "epic",
+          "obs": 312,
+          "expected": 180.6,
+          "obs_rate": 0.0083,
+          "baseline_rate": 0.0048,
+          "enrichment": 1.727
+        },
+        {
+          "theme": "incantations",
+          "obs": 1106,
+          "expected": 661.2,
+          "obs_rate": 0.0295,
+          "baseline_rate": 0.0177,
+          "enrichment": 1.673
+        },
+        {
+          "theme": "animal",
+          "obs": 2514,
+          "expected": 2142.1,
+          "obs_rate": 0.0672,
+          "baseline_rate": 0.0572,
+          "enrichment": 1.174
+        },
+        {
+          "theme": "calendar",
+          "obs": 847,
+          "expected": 837.6,
+          "obs_rate": 0.0226,
+          "baseline_rate": 0.0224,
+          "enrichment": 1.011
+        },
+        {
+          "theme": "other",
+          "obs": 17769,
+          "expected": 17835.9,
+          "obs_rate": 0.4747,
+          "baseline_rate": 0.4765,
+          "enrichment": 0.996
+        },
+        {
+          "theme": "lyric",
+          "obs": 9377,
+          "expected": 9840.9,
+          "obs_rate": 0.2505,
+          "baseline_rate": 0.2629,
+          "enrichment": 0.953
+        },
+        {
+          "theme": "wedding",
+          "obs": 2138,
+          "expected": 2250.4,
+          "obs_rate": 0.0571,
+          "baseline_rate": 0.0601,
+          "enrichment": 0.95
+        },
+        {
+          "theme": "children",
+          "obs": 1852,
+          "expected": 2049.2,
+          "obs_rate": 0.0495,
+          "baseline_rate": 0.0547,
+          "enrichment": 0.904
+        },
+        {
+          "theme": "lullabies",
+          "obs": 203,
+          "expected": 229.2,
+          "obs_rate": 0.0054,
+          "baseline_rate": 0.0061,
+          "enrichment": 0.886
+        },
+        {
+          "theme": "work",
+          "obs": 630,
+          "expected": 1019.3,
+          "obs_rate": 0.0168,
+          "baseline_rate": 0.0272,
+          "enrichment": 0.618
+        }
+      ]
+    },
+    "FI": {
+      "n_incidences": 26655,
+      "chi2": 4347.5,
+      "df": 10,
+      "rows": [
+        {
+          "theme": "lyric",
+          "obs": 2515,
+          "expected": 1222.5,
+          "obs_rate": 0.0944,
+          "baseline_rate": 0.0459,
+          "enrichment": 2.057
+        },
+        {
+          "theme": "epic",
+          "obs": 2641,
+          "expected": 1490.3,
+          "obs_rate": 0.0991,
+          "baseline_rate": 0.0559,
+          "enrichment": 1.772
+        },
+        {
+          "theme": "wedding",
+          "obs": 887,
+          "expected": 551.6,
+          "obs_rate": 0.0333,
+          "baseline_rate": 0.0207,
+          "enrichment": 1.608
+        },
+        {
+          "theme": "death",
+          "obs": 408,
+          "expected": 303.2,
+          "obs_rate": 0.0153,
+          "baseline_rate": 0.0114,
+          "enrichment": 1.346
+        },
+        {
+          "theme": "work",
+          "obs": 382,
+          "expected": 354.7,
+          "obs_rate": 0.0143,
+          "baseline_rate": 0.0133,
+          "enrichment": 1.077
+        },
+        {
+          "theme": "other",
+          "obs": 11834,
+          "expected": 11017.9,
+          "obs_rate": 0.444,
+          "baseline_rate": 0.4134,
+          "enrichment": 1.074
+        },
+        {
+          "theme": "animal",
+          "obs": 2463,
+          "expected": 2323.3,
+          "obs_rate": 0.0924,
+          "baseline_rate": 0.0872,
+          "enrichment": 1.06
+        },
+        {
+          "theme": "incantations",
+          "obs": 4107,
+          "expected": 6030.8,
+          "obs_rate": 0.1541,
+          "baseline_rate": 0.2263,
+          "enrichment": 0.681
+        },
+        {
+          "theme": "calendar",
+          "obs": 379,
+          "expected": 559.2,
+          "obs_rate": 0.0142,
+          "baseline_rate": 0.021,
+          "enrichment": 0.678
+        },
+        {
+          "theme": "children",
+          "obs": 538,
+          "expected": 1385.8,
+          "obs_rate": 0.0202,
+          "baseline_rate": 0.052,
+          "enrichment": 0.388
+        },
+        {
+          "theme": "lullabies",
+          "obs": 501,
+          "expected": 1415.8,
+          "obs_rate": 0.0188,
+          "baseline_rate": 0.0531,
+          "enrichment": 0.354
+        }
+      ]
+    }
+  },
+  "distinct_poem_variant_sidemix_corrected": {
+    "chi2": 1033.9,
+    "df": 10,
+    "rows": [
+      {
+        "theme": "epic",
+        "obs": 1549,
+        "expected": 942.0,
+        "obs_rate": 0.0437,
+        "baseline_rate": 0.0266,
+        "enrichment": 1.644
+      },
+      {
+        "theme": "death",
+        "obs": 539,
+        "expected": 379.3,
+        "obs_rate": 0.0152,
+        "baseline_rate": 0.0107,
+        "enrichment": 1.421
+      },
+      {
+        "theme": "wedding",
+        "obs": 1707,
+        "expected": 1534.2,
+        "obs_rate": 0.0482,
+        "baseline_rate": 0.0433,
+        "enrichment": 1.113
+      },
+      {
+        "theme": "animal",
+        "obs": 2749,
+        "expected": 2478.6,
+        "obs_rate": 0.0776,
+        "baseline_rate": 0.07,
+        "enrichment": 1.109
+      },
+      {
+        "theme": "lyric",
+        "obs": 6225,
+        "expected": 6035.1,
+        "obs_rate": 0.1758,
+        "baseline_rate": 0.1704,
+        "enrichment": 1.031
+      },
+      {
+        "theme": "other",
+        "obs": 16392,
+        "expected": 15922.6,
+        "obs_rate": 0.4629,
+        "baseline_rate": 0.4496,
+        "enrichment": 1.029
+      },
+      {
+        "theme": "calendar",
+        "obs": 669,
+        "expected": 771.4,
+        "obs_rate": 0.0189,
+        "baseline_rate": 0.0218,
+        "enrichment": 0.867
+      },
+      {
+        "theme": "incantations",
+        "obs": 3101,
+        "expected": 3774.1,
+        "obs_rate": 0.0876,
+        "baseline_rate": 0.1066,
+        "enrichment": 0.822
+      },
+      {
+        "theme": "work",
+        "obs": 597,
+        "expected": 754.3,
+        "obs_rate": 0.0169,
+        "baseline_rate": 0.0213,
+        "enrichment": 0.791
+      },
+      {
+        "theme": "children",
+        "obs": 1404,
+        "expected": 1897.3,
+        "obs_rate": 0.0396,
+        "baseline_rate": 0.0536,
+        "enrichment": 0.74
+      },
+      {
+        "theme": "lullabies",
+        "obs": 483,
+        "expected": 926.2,
+        "obs_rate": 0.0136,
+        "baseline_rate": 0.0262,
+        "enrichment": 0.522
+      }
+    ]
+  }
+}
